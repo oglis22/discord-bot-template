@@ -48,7 +48,7 @@ module.exports = async (client) => {
                     options,
                 });
 
-                console.log(`Registerd command "${name}."`);
+                console.log(`Registerd command "${name}".`);
 
             }
 

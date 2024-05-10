@@ -1,10 +1,10 @@
 module.exports = {
     name: 'test',
     description: 'test',
-    devOnly: true,
+    devOnly: false,
     //testOnly: Boolean,
     //options: Object[],
-    deleted: true,
+    deleted: false,
 
     callback: (client, interaction) => {
         interaction.reply(
